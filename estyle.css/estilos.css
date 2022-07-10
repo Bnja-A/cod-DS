@@ -13,27 +13,38 @@ body {
 .primary_button {
     padding: 16px;
     font-size: 1rem;
-    background-color: rgb(77, 77, 247);
+    background: linear-gradient(90deg, rgba(117, 20, 166, 1) 0%, rgba(191, 41, 171, 1) 52%, rgba(255, 76, 76, 1) 100%);
     border: 0px;
     border-radius: .5rem;
     color: white;
 }
 
 .primary_button:hover {
-    background-color: rgb(57, 57, 202);
+    background: linear-gradient(100deg, rgba(117, 20, 166, 1) 0%, rgba(191, 41, 171, 1) 19%, rgba(255, 76, 76, 1) 100%);
     cursor: pointer;
+    transform: translatey(-4px);
+    box-shadow: 0px 8px 5px rgba(5, 44, 82, 0.11);
+    transition: ease-out;
 }
 
 h1 {
     font-size: 32px;
+    font-weight: bold;
+
 }
 
 h2 {
     font-size: 24px;
+    font-weight: bold;
 }
 
 h3 {
     font-size: 18px;
+    font-weight: bold;
+}
+
+p {
+    margin: 0px;
 }
 
 /* Nav */
@@ -49,6 +60,7 @@ ul {
     display: flex;
     justify-content: right;
     list-style: none;
+    margin: 0px;
 }
 
 li {

@@ -9,7 +9,7 @@ body {
     font-size: 1rem;
 }
 
-/* Generales */
+/* Generales 
 .primary_button {
     padding: 16px;
     font-size: 1rem;
@@ -25,6 +25,15 @@ body {
     transform: translatey(-4px);
     box-shadow: 0px 8px 5px rgba(5, 44, 82, 0.11);
     transition: ease-out;
+}
+*/
+
+.btn-primary{
+    background: linear-gradient(90deg, rgba(117, 20, 166, 1) 0%, rgba(191, 41, 171, 1) 52%, rgba(255, 76, 76, 1) 100%) !important;
+    border:0px;
+}
+.btn-primary:hover{
+    background: linear-gradient(100deg, rgba(117, 20, 166, 1) 0%, rgba(191, 41, 171, 1) 19%, rgba(255, 76, 76, 1) 100%)!important;
 }
 
 h1 {

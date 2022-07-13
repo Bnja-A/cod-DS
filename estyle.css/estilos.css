@@ -47,7 +47,7 @@ p {
     margin: 0px;
 }
 
-/* Nav */
+/* Nav
 .topbar {
     background-color: #828282;
     padding: 24px;
@@ -55,7 +55,14 @@ p {
     flex-direction: row-reverse;
     justify-content: space-between;
 }
+*/
 
+.bg_bootstrap{
+    background-color: #333333;
+}
+.color_link{
+    color: #F2F2F2;
+}
 ul {
     display: flex;
     justify-content: right;

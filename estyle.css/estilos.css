@@ -28,13 +28,18 @@ body {
 }
 */
 
-.btn-primary{
+.btn-primary {
     background: linear-gradient(90deg, rgba(117, 20, 166, 1) 0%, rgba(191, 41, 171, 1) 52%, rgba(255, 76, 76, 1) 100%) !important;
-    border:0px;
+    border: 0px;
 }
-.btn-primary:hover{
-    background: linear-gradient(100deg, rgba(117, 20, 166, 1) 0%, rgba(191, 41, 171, 1) 19%, rgba(255, 76, 76, 1) 100%)!important;
+
+.btn-primary:hover {
+    background: linear-gradient(100deg, rgba(117, 20, 166, 1) 0%, rgba(191, 41, 171, 1) 19%, rgba(255, 76, 76, 1) 100%) !important;
+    transform: translatey(-4px)!important;
+    box-shadow: 0px 8px 5px rgba(5, 44, 82, 0.11);
+    transition: ease-out;
 }
+
 
 h1 {
     font-size: 32px;
@@ -66,12 +71,14 @@ p {
 }
 */
 
-.bg_bootstrap{
+.bg_bootstrap {
     background-color: #333333;
 }
-.color_link{
+
+.color_link {
     color: #F2F2F2;
 }
+
 ul {
     display: flex;
     justify-content: right;

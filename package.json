@@ -1,0 +1,23 @@
+{
+  "name": "clase_4_entregable",
+  "version": "1.0.0",
+  "description": "<h1> Proyecto Design system coder house </h1> <p>Html trabajados:</p> <p>Index y Proyectos</p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bnja-A/cod-DS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bnja-A/cod-DS/issues"
+  },
+  "homepage": "https://github.com/Bnja-A/cod-DS#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
